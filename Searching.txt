@@ -1,0 +1,34 @@
+seqential searching
+	searching in an array to find the expected element using a for loop
+	malloc to the sizeof array and return the position
+	
+	-time complexity-
+
+	best  f(n) = O(1)
+	avg   f(n) = O(n/2)
+	worst f(n) = O(n)
+
+
+Binary search (only for sorted arrays)
+	efficient than seqential
+	deviding in to two parts everytime and check the greater value
+
+	-time complexity-
+	best  f(n) = O(1)
+	avg   f(n) = O(log2 n)
+	worst f(n) = O(log2 n)
+
+
+Interpolation search (only for sorted arrays)
+	more efficient than binary
+	
+	mid = low + ((high-low) x ( ( key - A[low] ) / ( A[high] - A [low] )))
+	if key == A[mid]
+		found
+	if key > A[mid]
+		low = mid +1	
+	elseif key < A[mid]
+		high = mid-1
+	else
+		not found
+

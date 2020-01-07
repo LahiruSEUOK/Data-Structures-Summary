@@ -1,0 +1,20 @@
+Bubble Sort
+	if fist > sencond
+	interchange
+	
+	-time complexity-
+	best f(n)  - O(n)
+	avg f(n)   - O(n^2)
+	worst f(n) - O(n^2)
+
+Selection Sort
+	select the minimum value od the array
+	interchange with first one
+
+	-time complexity-
+	best f(n)  - O(n)
+	avg f(n)   - O(n^2)
+	worst f(n) - O(n^2)
+	
+Insertion Sort
+	
